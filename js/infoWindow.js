@@ -4,8 +4,8 @@ $(document).ready(() => {
     })
     
     // info-hidden-wrapper
-    $('.info-wrapper').click(() => {
-        if ($('.show-button').hasClass('animate-button')) {
+    $('.info-wrapper').click(() => { //it's our black div with important info onclick it show all info
+        if ($('.show-button').hasClass('animate-button')) { //check class and make animation, not toggle because height have animation by Jquery
             $('.info-show-wrapper').animate({
                 height: '72px'
             }, 1500)
@@ -17,8 +17,8 @@ $(document).ready(() => {
             let height = '293px'
             
             
-             if ($(document).width() <= 372) {
-                height = '512px'
+             if ($(document).width() <= 372) { //check width of user device/screen
+                height = '512px' //height of info black div
 
             }
             else if ($(document).width() <= 381) {
