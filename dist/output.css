@@ -997,6 +997,10 @@ flex-grow: 0; */
   .\32xl\:first\:mt-\[48px\]:first-child {
     margin-top: 48px;
   }
+
+  .first\:2xl\:mt-\[48px\]:first-child {
+    margin-top: 48px;
+  }
 }
 
 @media (max-width: 1279px) {

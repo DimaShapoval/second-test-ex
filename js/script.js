@@ -2,7 +2,7 @@
     let elemArray = []
 
    function createElemWrapper(length) {
-        let elem = `<div class="main-products-wrapper grid grid-cols-4 2xl:grid-cols-2 md:grid-cols-1 justify-center items-center mt-12 2xl:mt-0 2xl:first:mt-[48px] ">
+        let elem = `<div class="main-products-wrapper grid grid-cols-4 2xl:grid-cols-2 md:grid-cols-1 justify-center items-center mt-12 2xl:mt-0 first:2xl:mt-[48px] ">
     </div>` //wrapper of products rows. One page have 3 rows of product
         for (let i = 0; i < length; i++) {
             $('.wrapper-of-products-items').append(elem) //add 4 product in row
