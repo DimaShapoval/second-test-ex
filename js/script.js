@@ -41,7 +41,7 @@
             </div>
         </div>
         <div class="product-button-wrapper flex w-full mt-3 h-[42px] 2xl:mb-[48px]">
-            <button class="product-button w-full bg-black text-white rounded uppercase h-[42px] gap-2.5 hidden">pick up in <span class="underline">2200</span></button>
+            <button class="product-button w-full bg-black text-white rounded uppercase h-[42px] gap-2.5 hidden md:block">pick up in <span class="underline">2200</span></button>
         </div>
         </div>` //it our product with info, html tags that have one product
             elemArray.push(elem);//push this elem in array
