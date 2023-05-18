@@ -3,7 +3,7 @@ $(document).ready(()=>{
     $('#submit-button').click((event)=>{
         if(!$('#email').val() || !REGULAR_EMAIL.test($('#email').val())){ //if input value incorrect it show to user error
             event.preventDefault();
-            $('#email').addClass('border')
+            $('#email').addClass('border-2')
             $('#email').addClass('border-rose-600')
             $('.error-wrapper').removeClass('hidden')
         }
